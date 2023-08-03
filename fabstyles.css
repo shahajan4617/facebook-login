@@ -1,0 +1,15 @@
+div {
+  text-align: center;
+}
+.first {
+  border: 1px black solid;
+  width: 400px;
+  height: 400px;
+  margin: 0px 0px 0px 425px;
+}
+#myid {
+  font-family: inherit;
+  font-size: 25px;
+}
+.conatiner {
+}
