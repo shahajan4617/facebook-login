@@ -3,13 +3,40 @@ div {
 }
 .first {
   border: 1px black solid;
+  border-radius: 10px;
   width: 400px;
-  height: 400px;
+  height: 325px;
   margin: 0px 0px 0px 425px;
+  box-shadow: lightblue 5px 5px;
+}
+.box{
+  width: 350px;
+  height: 40px;
+  margin: 5px;
+  padding: 5px;
+}
+input::placeholder{
+  font-size: 18px;
+}
+#log{
+  align-content: center;
+  width: 363px;
+  height: 40px;
+  margin: 5px;
+  font-size: 18px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(46, 122, 245);
+}
+#log:hover{
+  cursor: pointer;
+}
+.lnk{
+  text-decoration: none;
+  color: blue;
 }
 #myid {
   font-family: inherit;
   font-size: 25px;
 }
-.conatiner {
-}
+
